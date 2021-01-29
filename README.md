@@ -1,6 +1,6 @@
 ## Bicycle Theft Board
 
-A dashboard web application for bicycle thefts in Toronto (2014-2019). Uses d3.js.
+A dashboard web application for bicycle thefts in Toronto (2014-2019) made using d3.js.
 
 # Getting Started
 
