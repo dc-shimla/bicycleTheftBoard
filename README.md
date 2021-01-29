@@ -9,8 +9,8 @@ A dashboard web application for bicycle thefts in Toronto (2014-2019). Uses d3.j
 Packages:
 
 - [node.js](https://nodejs.org/en/)
-- [d3.js](https://d3js.org/d3.v4.min.js, https://d3js.org/d3-array.v2.min.js)
-- [material design icons](https://fonts.googleapis.com/icon?family=Material+Icons)
+- [d3.js](https://d3js.org/d3.v4.min.js)
+- [material design icons](https://google.github.io/material-design-icons/)
 
 ### Running the application
 
