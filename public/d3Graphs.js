@@ -1,6 +1,6 @@
 //use d3 queue to load files simultaneously
 d3.queue()
-  .defer(d3.csv, "/static/dataFiles/Toronto_bicycleTheftData_2014_2019.csv")
+  .defer(d3.csv, "/public/dataFiles/Toronto_bicycleTheftData_2014_2019.csv")
   //.defer(d3.csv, "dataFiles/Canada_data.csv")
   .await(function (error, file_1) {
     //remove file1

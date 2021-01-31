@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8" />
-<link rel="stylesheet" type="text/css" href="/static/stylesheet.css" />
+<link rel="stylesheet" type="text/css" href="/public/stylesheet.css" />
 
 <!-- Material Icon url1 https://material.io/resources/icons/?style=baseline
 url2 https://google.github.io/material-design-icons/ -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <!-- Required for d3.group() -->
@@ -13,18 +16,14 @@ url2 https://google.github.io/material-design-icons/ -->
 <!-- Displaying data starts here -->
 <h1>Bicycle Thefts in Toronto (2014-2019)</h1>
 
-<div class="seperator">
-  <hr margin: 0;>
-</div>
+<div class="seperator"><hr margin: 0;></div>
 
 <!-- div for figures1 -->
 <br /><br />
 
 <div id="column1">
   <tr>
-    <span class="material-icons md-90">
-      directions_bike
-    </span>
+    <span class="material-icons md-90"> directions_bike </span>
   </tr>
   <br />
   <tr>
@@ -32,15 +31,13 @@ url2 https://google.github.io/material-design-icons/ -->
   </tr>
   <br />
   <tr>
-    <p id="figures1_totalStolenBikes" style="font-size: larger;" ;>0</p>
+    <p id="figures1_totalStolenBikes" style="font-size: larger" ;>0</p>
   </tr>
 </div>
 
 <div id="column2">
   <tr>
-    <span class="material-icons md-90">
-      attach_money
-    </span>
+    <span class="material-icons md-90"> attach_money </span>
   </tr>
   <br />
   <tr>
@@ -48,15 +45,13 @@ url2 https://google.github.io/material-design-icons/ -->
   </tr>
   <br />
   <tr>
-    <p id="figures1_valueStolenBikes" style="font-size: larger;" ;>0</p>
+    <p id="figures1_valueStolenBikes" style="font-size: larger" ;>0</p>
   </tr>
 </div>
 
 <div id="column3">
   <tr>
-    <span class="material-icons md-90">
-      pedal_bike
-    </span>
+    <span class="material-icons md-90"> pedal_bike </span>
   </tr>
   <br />
   <tr>
@@ -64,12 +59,12 @@ url2 https://google.github.io/material-design-icons/ -->
   </tr>
   <br />
   <tr>
-    <p id="figures1_avgValueStolenBike" style="font-size: larger;" ;>0</p>
+    <p id="figures1_avgValueStolenBike" style="font-size: larger" ;>0</p>
   </tr>
 </div>
 
 <!-- space after column1, column2 and column3 -->
-<div> &VeryThinSpace; </div>
+<div>&VeryThinSpace;</div>
 
 <div class="seperator">
   <hr margin: 0;>
@@ -86,13 +81,12 @@ url2 https://google.github.io/material-design-icons/ -->
 </div>
 
 <!-- space after column4 -->
-<div> &VeryThinSpace; </div>
+<div>&VeryThinSpace;</div>
 
 <div class="seperator">
   <hr margin: 0;>
   <br /><br />
 </div>
-
 
 <div id="column5">
   <tr>
@@ -102,7 +96,7 @@ url2 https://google.github.io/material-design-icons/ -->
 </div>
 
 <!-- space after column5 -->
-<div> &VeryThinSpace; </div>
+<div>&VeryThinSpace;</div>
 
 <div class="seperator">
   <hr margin: 0;>
@@ -114,14 +108,15 @@ url2 https://google.github.io/material-design-icons/ -->
 
 <div id="column6">
   <tr>
-    <th><b>Bicycle Theft Incidents by Property Type</b> <br /> </th>
+    <th><b>Bicycle Theft Incidents by Property Type</b> <br /></th>
   </tr>
-  <br /> <br />
+  <br />
+  <br />
 </div>
 
 <!-- space after column6 -->
-<div> &VeryThinSpace; </div>
-<div> &VeryThinSpace; </div>
+<div>&VeryThinSpace;</div>
+<div>&VeryThinSpace;</div>
 
 <div class="seperator">
   <hr margin: 0;>
@@ -133,23 +128,24 @@ url2 https://google.github.io/material-design-icons/ -->
   <tr>
     <th><b>Bicycle Theft Incidents by Neighbourhood</b></th>
   </tr>
-  <br /> <br />
+  <br />
+  <br />
 </div>
 
 <!-- space after column7 -->
-<div> &VeryThinSpace; </div>
+<div>&VeryThinSpace;</div>
 
-<div class="seperator" style="margin-top: 15px;">
-  <hr margin: 0;>
-</div>
+<div class="seperator" style="margin-top: 15px"><hr margin: 0;></div>
 
-<div id="column8" style="font-size: xx-small;">
+<div id="column8" style="font-size: xx-small">
   <tr>
-    <th>*Cost of some bicycles were not recorded by Toronto Police Service. Such entries has been omitted for
-      calculating this value.</th>
+    <th>
+      *Cost of some bicycles were not recorded by Toronto Police Service. Such
+      entries has been omitted for calculating this value.
+    </th>
     <br /><br />
   </tr>
 </div>
 
 <!-- Embed public/d3Graphs.js -->
-<script src="/static/d3Graphs.js"> </script>
+<script src="/public/d3Graphs.js"></script>
