@@ -18,7 +18,7 @@ Clone github repository. Open index.html in your internet browsing application. 
 
 ### Live Demo
 
-https://bicycletheftboard.herokuapp.com/
+https://bicycletheftboard.netlify.app/
 
 # Author
 
